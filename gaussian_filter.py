@@ -4,7 +4,7 @@ import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt
 
-img = cv.imread("train.jfif", cv.IMREAD_GRAYSCALE);
+img = cv.imread("Lenna.jfif", cv.IMREAD_GRAYSCALE);
 
 # img = cv.cvtColor(img,cv.COLOR_BGR2RGB)
 plt.imshow(cv.cvtColor(img, cv.COLOR_BGR2RGB))
